@@ -23,7 +23,7 @@ export default function Reply({ userImagePath, username, replyText, likeNum }): 
     <span style={{ color: "#E4E6EB" }}>{replyText}</span>
     <div className="d-flex align-items-center gap-1">
       <img src="/like.svg" width={20}></img>
-      <span style={{ color: "#B0B3B8" }}>l{ikeNum}</span>
+      <span style={{ color: "#B0B3B8" }}>l{likeNum}</span>
     </div>
   </div>
 </div>
@@ -31,5 +31,5 @@ export default function Reply({ userImagePath, username, replyText, likeNum }): 
 {/* map-loop render Comment component here */}
 </div>
 </div>
-);
+
 }
